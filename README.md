@@ -49,7 +49,7 @@ modal.confirm({
 ```
 Вставьте кастомную разметку в модальное окно:
 ```js
-superModal.paste(document.querySelector(".block").innerHTML || $(".block").html(), "Моя кастомная разметка");
+superModal.paste(document.querySelector(".block").innerHTML, "Моя кастомная разметка");
 ```
 
 А так же возможность задавать функции на каждую из кнопок, устанавливать параметры объектом и полностью изменять оформление вашего окна.
