@@ -1,4 +1,4 @@
-/*! superModal v0.1.5 ~ (c) 2016 Nikita Trifan ~ http://nikitatrifan.ru */
+/*! superModal v0.1.5 ~ (c) 2016 Nikita Trifan ~ http://nikitatrifan.ru || https://github.com/expdevelop/superModal */
 class superModal {
   constructor(options) {
 

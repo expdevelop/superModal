@@ -6,7 +6,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-/*! superModal v0.1.5 ~ (c) 2016 Nikita Trifan ~ http://nikitatrifan.ru */
+/*! superModal v0.1.5 ~ (c) 2016 Nikita Trifan ~ http://nikitatrifan.ru || https://github.com/expdevelop/superModal */
 
 var superModal = function () {
     function superModal(options) {
