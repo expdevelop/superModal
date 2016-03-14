@@ -198,9 +198,10 @@ modal.paste({
 ```js
 let modal = new superModal({
 
-  // Пока здесь одна настройка, позже планируется дорабатывать
   settings: {
     duration: 200 // Длительность анимации в ms
+    custom: false, // Ставьте true, если вы хотите написать свои стили
+    modalClass: "superModal" // Задайте кастомный класс 
   },
   
   // Стили
