@@ -50,11 +50,11 @@ class superModal {
         buttons: {
           decline: {
             content: "Cancel",
-            fn: console.log.bind(this, "Cancel is pushed!")
+            fn: console.log.bind(console, "Cancel is pushed!")
           },
           accept: {
             content: "Confirm",
-            fn: console.log.bind(this, "Confirm is pushed!")
+            fn: console.log.bind(console, "Confirm is pushed!")
           }
         }
       },
@@ -291,11 +291,11 @@ class superModal {
   _setText(title, content, accept, decline, woContent) {
     let dom = this.dom, opt = this.options;
     // Setting content
-    dom.title.textContent = title || opt.content.title;
-    if (!woContent) dom.text.textContent = content || opt.content.text;
+    dom.title.innerHTML = title || opt.content.title;
+    if (!woContent) dom.text.innerHTML = content || opt.content.text;
     // Set btn's
-    dom.accept.textContent = accept   || opt.buttons["accept"].content;
-    dom.decline.textContent = decline || opt.buttons["decline"].content;
+    dom.accept.innerHTML = accept   || opt.buttons["accept"].content;
+    dom.decline.innerHTML = decline || opt.buttons["decline"].content;
   }
   _setMode(callback) {
 

@@ -45,9 +45,11 @@ gulp.task('js', function () {
 gulp.task('default', ['jade', 'js', 'sass']);
 
 gulp.task("build", function(){
-    var src = "./src/superModal.js", build = "./build";
+    var src = "./src/superModal.js", 
+        build = "./build";
     // to es6 folder
-    gulp.src(src).pipe(gulp.dest(build + "/es6/"));
+    gulp.src(src)
+        .pipe(gulp.dest(build + "/es6/"));
     // to es5
     gulp.src(src)
         .pipe(babel({
